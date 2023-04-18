@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/src/main/resources" charset="UTF-8" />
@@ -13,7 +14,37 @@
     <file url="file://$PROJECT_DIR$/impl/src/main/resources/application-local.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" charset="US-ASCII" />
+    <file url="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.8.0/jjwt-0.8.0.jar!/io/jsonwebtoken/Jwts.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.8.0/jjwt-0.8.0.jar!/io/jsonwebtoken/impl/DefaultJwtParser.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.68/tomcat-embed-core-9.0.68.jar!/javax/servlet/FilterChain.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5.jar!/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" charset="US-ASCII" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5.jar!/org/springframework/boot/autoconfigure/condition/AbstractNestedCondition.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnJava.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5.jar!/org/springframework/boot/autoconfigure/condition/OnBeanCondition.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.5/spring-boot-2.7.5.jar!/org/springframework/boot/SpringBootConfiguration.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.5/spring-boot-2.7.5.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.5/spring-boot-2.7.5.jar!/org/springframework/boot/jdbc/init/DataSourceScriptDatabaseInitializer.class" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.5/spring-boot-2.7.5.jar!/org/springframework/boot/jdbc/init/DataSourceScriptDatabaseInitializerDetector.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.5/spring-boot-2.7.5.jar!/org/springframework/boot/sql/init/dependency/DatabaseInitializerDetector.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.5/spring-data-commons-2.7.5.jar!/org/springframework/data/repository/CrudRepository.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.5/spring-data-commons-2.7.5.jar!/org/springframework/data/repository/Repository.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/AbstractAuthenticationToken.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/core/Authentication.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/core/userdetails/UserDetails.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.4/spring-security-core-5.7.4.jar!/org/springframework/security/core/userdetails/UserDetailsService.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.4/spring-security-web-5.7.4.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar!/org/springframework/beans/factory/annotation/Autowired.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar!/org/springframework/context/ConfigurableApplicationContext.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar!/org/springframework/context/annotation/ComponentScans.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar!/org/springframework/context/annotation/Configuration.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23.jar!/org/springframework/context/annotation/DeferredImportSelector.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.23/spring-core-5.3.23.jar!/org/springframework/lang/Nullable.class" charset="UTF-16BE" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -62,6 +62,7 @@ public class FriendService {
         List<Friend> toUpdate = friendRepository
                 .findAll(getSpecification(new FriendSearchDto
                         (getJwtUserIdFromSecurityContext(), StatusCode.FRIEND)));
+
         if (!toUpdate.isEmpty()) {
             for (Friend friend : toUpdate) {
                 Account updated = accountRepository.getReferenceById(friend.getToAccountId());

@@ -6,6 +6,7 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -32,7 +33,7 @@ import java.util.List;
 @Component
 @Slf4j
 @RequiredArgsConstructor
-public class JwtTokenProvider {
+public class JwtTokenProvider implements BeanPostProcessor {
     @Value("${jwt.secret.access}")
     private String jwtAccessSecret;
     @Value("${jwt.secret.refresh}")
@@ -62,7 +63,7 @@ public class JwtTokenProvider {
         return Jwts.builder()
                 .setClaims(claims)
                 .setIssuedAt(Date.from(now.toInstant()))
-                .setExpiration(Date.from(now.plusDays(30).toInstant()))
+                .setExpiration(Date.from(now.plusMinutes(60).toInstant()))
                 .signWith(SignatureAlgorithm.HS256, jwtAccessSecret)
                 .compact();
     }

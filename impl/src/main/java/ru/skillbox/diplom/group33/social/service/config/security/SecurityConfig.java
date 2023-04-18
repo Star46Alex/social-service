@@ -50,7 +50,6 @@ public class SecurityConfig {
                 .addFilterBefore(new JwtTokenFilter(jwtTokenProvider), UsernamePasswordAuthenticationFilter.class).build();
 
     }
-
     @Bean
     public LogoutSuccessHandler logoutSuccessHandler() {
         return new LogoutSuccessHandler() {
